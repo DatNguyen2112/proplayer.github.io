@@ -1,0 +1,445 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* HEADER */
+.Header{
+    background-color: #d91d90;
+}
+
+.header_address{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.Hotline_and_email{
+    display: flex;
+    column-gap: 39px;
+    align-items: center;
+}
+.header_hotline,
+.header_email{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_search{
+    position: relative;
+}
+.input_search{
+    border-radius: 30px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    border: none;
+    
+}
+.Btn_search{
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #d91d90;
+    border: none;
+    cursor: pointer;
+}
+
+/* HEADER NAVIGATION */
+.Header_nav_background{
+    background-image: url("../img/Layer 128.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -25px;
+    position: relative;
+}
+
+.Header_nav{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 36px 0;
+    padding-left: 48px;
+}
+
+.Header_logo{
+
+}
+.Logos_school{
+    width: 78px;
+    height: 78px;
+}
+.Header_nav_items{
+   
+}
+.Header_nav_item{
+
+}
+.Header_nav_detail{
+    display: inline-block;
+    padding-left: 43px;
+}
+.Header_nav_link{
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#d91d90;
+    font-weight: 900;
+}
+
+/* Property_picture */
+.Property_img{
+    margin-top:-50px;
+}
+.Prop_photo{
+    width: 100%;
+}
+
+.Property_another_pic{
+    background-image: url("../img/csvc_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top:-90px;
+}
+.Property_community{
+    background-image: url('../img/bg_1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.Home_Property{
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    padding-top: 80px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.Home_text{
+    text-decoration: none;
+    font-size:17px;
+    color: #666;
+}
+
+.Prop_text{
+    text-decoration: none;
+    font-size:17px;
+    color: #666;
+}
+
+/* Giới thiệu */
+.Present_header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    column-gap:44px;
+    margin-top: 38px;
+    margin-bottom: 15px;
+}
+
+.Present_title{
+    font-size:32px;
+    color: #d91d90;
+    text-transform: uppercase;
+   
+}
+
+.Present_para{
+    font-size:18px;
+    padding-left: 92px;
+    padding-right: 92px;
+    text-align: center;
+}
+
+.Present_row{
+    margin-top:129px;
+    row-gap: 129px;
+}
+
+.Present_col{
+    position: relative;
+}
+
+.Present_img_2{
+    position: absolute;
+    top: -113px;
+    left: 29px;
+}
+
+.Present_img_3{
+    position: absolute;
+    top: 94px;
+    left: 60px;
+}
+
+.Present_img_4{
+    position: absolute;
+    top: 98px;
+    left: 64px;
+}
+
+.Present_date{
+    position: absolute;
+    top: 107px;
+    left: 79px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Present_content{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    text-align: center;
+}
+
+.Present_content_title{
+    font-size:28px;
+}
+.Present_content_para{
+    font-size:18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+}
+.Present_content_more{
+    font-size:18px;
+    color: #d91d90;
+    display: flex;
+    align-items: center;
+    column-gap:7px;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.Present_content_more_text{
+    text-decoration: none;
+    color: #d91d90;
+}
+
+
+
+/* Footer */
+.Footer{
+    background-image: url("../img/Gon Song.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    position: relative;
+}
+
+.Footer_enter{
+    padding-top: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Address_add{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+.Address_title{
+    font-size:24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Google_map{
+    position: relative;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.GG_map_img{
+    position: absolute;
+    top: 6px;
+}
+
+.Google_text{
+    position: absolute;
+    top: 15px;
+    right: 28px;
+}
+
+.About_us{
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 23px;
+}
+
+.Contact_title{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Contact_aboutUs{
+    display: flex;
+    align-items: center;
+    column-gap:6px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.Contact_fb,
+.Contact_yt,
+.Contact_instargram,
+.Contact_tw{
+    position: relative;
+    display: inline-block;
+}
+
+.Face_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 13px;
+    color: #fff;
+}
+
+.YT_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    color: #fff;
+}
+
+.IG_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.TW_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.padding{
+    padding-bottom: 16px;
+}
+
+.Footer_input{
+    position: relative;
+    display: inline-block;
+}
+
+.Sign_up{
+    position: absolute;
+    top: 36px;
+    left: 60px;
+}
+
+.Sign_up_title{
+    padding-left: 64px;
+    font-size: 24px;
+    color: #d91d90;
+    text-transform: uppercase;
+}
+
+.Name,
+.Phone{
+    padding-bottom: 10px;
+    width: 290px;
+}
+
+.Name{
+    padding-top: 15px;
+}
+
+.Name_input,
+.Phone_input{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.submit_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:6px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d91d90;
+}
+
+.submit_icon{
+    color: #fff;
+}
+
+.Submit_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #fff;
+}
+
+.Address_and_contact{
+    display: flex;
+    column-gap: 101px;
+    align-items: center;
+}
+
+.Footer_text{
+    margin-top: 115px;
+    padding-left: 155px;
+    font-size:18px;
+    color: #fff;
+}
+
+.Footer_img_1{
+    position: absolute;
+    top: -90px;
+    
+}
+.Footer_img_2{
+    position: absolute;
+    top: -47px;
+    left: 620px
+}
+.Footer_img_3{
+    position: absolute;
+    top: -40px;
+    right: 264px;
+}
+.Footer_img_4{
+    position: absolute;
+    top: -40px;
+    right: 208px;
+}
+

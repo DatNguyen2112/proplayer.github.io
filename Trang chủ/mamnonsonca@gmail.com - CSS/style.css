@@ -1,0 +1,604 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* HEADER */
+.Header{
+    background-color: #d91d90;
+}
+
+.header_address{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.Hotline_and_email{
+    display: flex;
+    column-gap: 39px;
+    align-items: center;
+}
+.header_hotline,
+.header_email{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_search{
+    position: relative;
+}
+.input_search{
+    border-radius: 30px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    border: none;
+    
+}
+.Btn_search{
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #d91d90;
+    border: none;
+    cursor: pointer;
+}
+
+/* HEADER NAVIGATION */
+.Header_nav_background{
+    background-image: url("../img/Layer 128.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -25px;
+    position: relative;
+}
+
+.Header_nav{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 36px 0;
+    padding-left: 48px;
+}
+
+.Header_logo{
+
+}
+.Logos_school{
+    width: 78px;
+    height: 78px;
+}
+.Header_nav_items{
+   
+}
+.Header_nav_item{
+
+}
+.Header_nav_detail{
+    display: inline-block;
+    padding-left: 43px;
+}
+.Header_nav_link{
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#d91d90;
+    font-weight: 900;
+}
+
+/* PICTURE */
+.Picture{
+    background-image: url("../img/Layer 145.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-top:-48px;
+}
+.Picture_text{
+    padding-top: 144px;
+    padding-left: 76px;
+    display: inline-block;
+    text-align: center;
+}
+.Pic_paragraph{
+    font-size: 30px;
+    color:#d91d90;
+    font-weight: bold;
+}
+
+/* Another Picture */
+.Another_picture{
+    background-image: url("../img/Gon Song.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: -140px;
+}
+
+.Welcome{
+    padding-top: 43px;
+    padding-bottom: 100px;
+}
+
+.Another_picture_logo{
+    text-align: center;
+    padding-top: 46px;
+}
+.Anothor_logos{
+    
+}
+.Another_text{
+    text-align: center;
+    padding-top: 15px;
+}
+.Another_title{
+    font-size:34px;
+    color: #fff;
+    font-weight: bold;
+}
+.Another_description{
+    text-align: center;
+    margin-left: 224px;
+    margin-right: 224px;
+    padding-top: 23px;
+}
+.Another_para{
+    font-size: 18px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+
+.Another_option{
+    text-align: center;
+}
+
+.Another_item{
+    position: relative;
+    display: inline-block;
+    padding-left: 27px;
+}
+
+.Presidion_logo{
+    
+    
+}
+
+.Presidion_img_1{
+    position: absolute;
+    left: 143px;
+    top: -55px;
+    width: 120px;
+}
+
+.Presidion_img_2{
+    position: absolute;
+    top: -28px;
+    left: 180px;
+    width: 60px;
+}
+
+.Presidion_img_3{
+    width: 340px;
+    
+}
+
+.Presidion_detail{
+    position: absolute;
+    bottom: 12px;
+}
+.Presidion_title{
+    font-size:28px;
+}
+.Presidion_para{
+    font-size:18px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 4px;
+}
+.More{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.More_link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fea633;
+}
+.More_icon{
+    color: #fea633;
+}
+
+.blue{
+    color: #25b0ff;
+}
+
+.green{
+    color: #95cc47;
+}
+
+/* Khong gian choi va hoc */
+.Place_to_play_and_study{
+    background-image: url("../img/Layer 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: -70px;
+    position: relative;
+}
+
+.Fly_img{
+    width: 412px;
+    top: -120px;
+    position: absolute;
+    left: -280px;
+}
+
+.Place_to_play_and_study_content{
+    padding-top: 90px;
+}
+.Place_to_play_and_study_title{
+    display: flex;
+    justify-content: center;
+    column-gap: 26px;
+    align-items: center;
+}
+.Place_photo_1{
+
+}
+.Place_img_1{
+
+}
+.Place_para{
+    color: #d91d90;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Place_photo_2{
+
+}
+.Place_img_2{
+
+}
+
+.Place_to_play_and_study_para{
+    margin-right: 89px;
+    margin-left: 83px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.Place_rows{
+    margin-top: 35px;
+    display:flex;
+}
+
+.Place_col_2,
+.Place_col_4{
+    margin-top: 25px;
+}
+
+/* Tin tức mới */
+.Breaking_news{
+    margin-top: 95px;
+}
+.Breaking_news_content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap:25px;
+}
+.Breaking_news_photo_1{
+
+}
+.News_img_1{
+
+}
+.Breaking_news_title{
+    color: #d91d90;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.Breaking_news_photo_2{
+
+}
+.News_imgs_2{
+
+}
+
+.Breaking_news_para{
+    font-size:18px;
+    margin-left: 208px;
+    margin-right: 203px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Breakings_news_option{
+    margin-top: 150px;
+}
+.News_rows{
+    display: flex;
+    justify-content:center;
+}   
+.News_col{
+    display: inline-block;
+}
+.News_option_1{
+    position: relative;
+}
+.Background_img{
+    
+}
+.News_picture_1{
+    position: absolute;
+    left: 17px;
+    top: -124px;
+}
+.Circle_picture{
+    position: absolute;
+    left: 45px;
+    top: 83px;
+}
+.Around_picture{
+    position: absolute;
+    left: 49px;
+    top: 86px;
+}
+.Date{
+    display: inline-block;
+    position: absolute;
+    left: 65px;
+    top: 94px;
+}
+
+.Date_text{
+    color: #fff;
+    font-size: 15px;
+}
+
+.Option_content{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+}
+
+.Option_title{
+    font-size:24px;
+}
+
+.Option_para{
+    font-size:18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+}
+
+
+/* Footer */
+.Footer{
+    background-image: url("../img/Gon Song.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    position: relative;
+}
+
+.Footer_enter{
+    padding-top: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Address_add{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+.Address_title{
+    font-size:24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Google_map{
+    position: relative;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.GG_map_img{
+    position: absolute;
+    top: 6px;
+}
+
+.Google_text{
+    position: absolute;
+    top: 15px;
+    right: 28px;
+}
+
+.About_us{
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 23px;
+}
+
+.Contact_title{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Contact_aboutUs{
+    display: flex;
+    align-items: center;
+    column-gap:6px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.Contact_fb,
+.Contact_yt,
+.Contact_instargram,
+.Contact_tw{
+    position: relative;
+    display: inline-block;
+}
+
+.Face_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 13px;
+    color: #fff;
+}
+
+.YT_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    color: #fff;
+}
+
+.IG_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.TW_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.padding{
+    padding-bottom: 16px;
+}
+
+.Footer_input{
+    position: relative;
+    display: inline-block;
+}
+
+.Sign_up{
+    position: absolute;
+    top: 36px;
+    left: 60px;
+}
+
+.Sign_up_title{
+    padding-left: 64px;
+    font-size: 24px;
+    color: #d91d90;
+    text-transform: uppercase;
+}
+
+.Name,
+.Phone{
+    padding-bottom: 10px;
+    width: 290px;
+}
+
+.Name{
+    padding-top: 15px;
+}
+
+.Name_input,
+.Phone_input{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.submit_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:6px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d91d90;
+}
+
+.submit_icon{
+    color: #fff;
+}
+
+.Submit_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #fff;
+}
+
+.Address_and_contact{
+    display: flex;
+    column-gap: 101px;
+    align-items: center;
+}
+
+.Footer_text{
+    margin-top: 115px;
+    padding-left: 155px;
+    font-size:18px;
+    color: #fff;
+}
+
+.Footer_img_1{
+    position: absolute;
+    top: -90px;
+    
+}
+.Footer_img_2{
+    position: absolute;
+    top: -47px;
+    left: 620px
+}
+.Footer_img_3{
+    position: absolute;
+    top: -40px;
+    right: 264px;
+}
+.Footer_img_4{
+    position: absolute;
+    top: -40px;
+    right: 208px;
+}
+
+
+

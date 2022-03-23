@@ -1,0 +1,258 @@
+.Search_input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    width:248px;
+}
+
+.Search_icon{
+    position: absolute;
+    left: 212px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #d91d90;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Nav_mb{
+   
+    display: none;
+}
+
+
+.Nav_icon{
+    background-color: #d91d90;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.Search_item{
+    display: none;
+}
+
+.Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 99;
+    display: none;
+    animation: Overlay linear .3s;
+}
+
+.Overlay_menu{
+    position: fixed;
+    background-color: #d91d90;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1380px;
+    max-width: 100%;
+    z-index: 999;
+    animation: FadeIn linear .6s;
+    transition: animation linear .3s;
+    display: none;
+}
+
+@keyframes FadeIn {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes Overlay {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.Overlay_menu_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Icon{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.Menu_logo{
+    width: 70px;
+}
+
+.Menu_close,
+.Menu_search{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.Overlay_nav{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Overlay_navs{
+    padding-bottom: 41px;
+}
+.Overlay_navs_detail{
+    display: block;
+    padding-top: 34px;
+}
+.Overlay_navs_item{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width : 1024px){
+    #main{
+        overflow: hidden;
+    }
+
+    .Header_logo{
+        display: none;
+    }
+    
+    .Hotline_and_email,
+    .form_search{
+        display: none;
+    }
+
+    .Header_nav{
+        column-gap: 25px;
+        padding: 15px 40px;
+        
+    }
+
+    .Header_nav_background{
+        margin-top: inherit;
+        background-position: right;
+    }
+
+    .Nav_mb{
+        display: block;
+    }
+
+    .Search_item{
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .Header_nav_item{
+        display: none;
+    }
+
+    .visibile{
+        display: none;
+    }
+
+    .Property_another_pic{
+        background-position: initial;
+        background-size: initial;
+    }
+    
+    .Home_Property{
+        padding-left: 12px;
+        padding-top: 40px;
+    }
+
+    .Prop_photo {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .Another_album{
+        text-align: center;
+    }
+
+    .Picture_library_title, .Picture_library_comunity,
+    .Picture_library_paras{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Picture_library_comunities{
+        justify-content: right;
+        flex-direction: column;
+    }
+
+    .Picture_library_print_and_email{
+        padding-left: 95px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+
+    .Picture_library_like_and_share{
+        padding-top: 11px;
+        padding-left: 170px;
+        background-color: inherit;
+    }
+
+    .Videos_col{
+        text-align: center;
+    }
+
+    .Videos_col_img_5 {
+        right: 13px;
+        top: -13px;
+    }
+
+    .Footer_enter{
+        flex-direction: column;
+    }
+
+    .Address_and_contact{
+        flex-direction: column;
+    }
+
+    .Contact_title,
+    .About_us{
+        display: none;
+    }
+
+    .Footer_contact{
+        padding-right: 120px;
+        padding-top: 22px;
+    }
+
+    .Footer_text{
+        margin-top: 31px;
+        padding-left: 22px;
+        padding-right: 22px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .Footer_para{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Footer_input{
+        display: none;
+    }
+}

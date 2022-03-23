@@ -1,0 +1,666 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* HEADER */
+.Header{
+    background-color: #d91d90;
+}
+
+.header_address{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Hotline_and_email{
+    display: flex;
+    column-gap: 39px;
+    align-items: center;
+}
+.header_hotline,
+.header_email{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_search{
+    position: relative;
+}
+.input_search{
+    border-radius: 30px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+}
+.Btn_search{
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #d91d90;
+    border: none;
+    cursor: pointer;
+}
+
+/* HEADER NAVIGATION */
+.Header_nav_background{
+    background-image: url("../img/Layer 128.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: -25px;
+    position: relative;
+}
+
+.Header_nav{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 36px 0;
+    padding-left: 39px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Header_logo{
+
+}
+.Logos_school{
+    width: 78px;
+    height: 78px;
+}
+.Header_nav_items{
+   
+}
+.Header_nav_item{
+
+}
+.Header_nav_detail{
+    display: inline-block;
+    padding-left: 43px;
+    position: relative;
+}
+
+.Header_nav_detail:hover .Header_nav_link_item{
+    color: #fe94d6;
+    display:block;
+}
+
+.Header_nav_link{
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#d91d90;
+    font-weight: 900;
+}
+
+.Header_nav_link_item{
+    position: absolute;
+    top: 54px;
+    width: 200px;
+    left: 26px;
+    display: none;
+}
+
+.Header_nav_detail::after{
+    content: "";
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+}
+    
+.Header_nav_link_detail{
+    display: block;
+    padding: 15px;
+    background-color: #df60ad;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.Header_nav_link_detail:hover{
+    background-color: #d91d90;
+}
+       
+.Header_nav_text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Property_picture */
+.Property_img{
+    margin-top:-50px;
+}
+.Prop_photo{
+    width: 100%;
+}
+
+.Property_another_pic{
+    background-image: url("../img/csvc_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top:-90px;
+}
+.Property_community{
+    background-image: url('../img/bg_1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.Home_Property{
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    padding-top: 70px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    position: relative;
+   
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Home_text{
+    text-decoration: none;
+    font-size:17px;
+    color: #666;
+}
+
+.Prop_text{
+    text-decoration: none;
+    font-size:17px;
+    color: #666;
+}
+
+/* Album picture */
+.Picture_library_title{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+    color: #d91d90;
+    padding-bottom: 24px;
+    padding-top: 40px;
+}
+
+.Picture_library_comunity{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 23px;
+}
+.Picture_library_date_and_view{
+    display: flex;
+    align-items: center;
+    column-gap:10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.Picture_library_date{
+    display: flex;
+    align-items: center;
+    column-gap:7px;
+}
+
+.Picture_library_view{
+    display: flex;
+    align-items: center;
+    column-gap:7px;
+}
+
+
+.Picture_library_font_size{
+    display: flex;
+    align-items: center;
+    column-gap:7px;
+}
+
+.Picture_library_subtracs{
+    background-color: #ccc;
+    padding:6px;
+    cursor: pointer;
+}
+
+.Picture_library_plus{
+    background-color: #ccc;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.Picture_library_paras{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.album_row{
+    row-gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Album_col_item_img{
+    width: 100%;
+}
+
+.Picture_library_comunities{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Picture_library_print_and_email{
+    display:flex;
+    align-items: center;
+    column-gap:10px;
+}
+.Picture_library_back{
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    background-color: #f7f7f7;
+    color: #666;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+.Picture_library_email{
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    background-color: #f7f7f7;
+    color: #666;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Picture_library_print{
+    display: flex;
+    align-items: center;
+    column-gap:5px;
+    background-color: #f7f7f7;
+    color: #666;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Picture_library_like_and_share{
+    display: flex;
+    align-items: center;
+    column-gap:10px;
+    background-color: #fff;
+    padding: 5px;
+}
+.Like_and_share{
+    display:flex;
+    align-items: center;
+    column-gap:5px;
+    color: #fff;
+}
+.Like{
+    display: flex;
+    column-gap:5px;
+    background-color: #1977f3;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.Share{
+    background-color: #1977f3;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Tweet{
+    display:flex;
+    align-items: center;
+    column-gap:5px;
+    background-color: #1b95e0;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.album_plus{
+    position: relative;
+}
+
+.Plus_icon {
+    position: absolute;
+    left: 0;
+    top: 102px;
+    left: 180px;
+    cursor: pointer;
+}
+
+/* ANother album */
+.Another_album{
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 33px;
+    
+}
+.Another_album_title{
+    color: #d91d90;
+    font-size: 26px;
+}
+
+.comunity_photos{
+    row-gap: 37px;
+    margin-top: 26px;
+}
+
+.Comunity_photo{
+    width: 100%;
+}
+.Comunity_title{
+    text-align: center;
+    font-size:20px;
+    padding-top: 17px;
+}
+.Comunity_date_and_views{
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    padding-top: 14px;
+}
+
+/* Overlay */
+.Album_zoom{
+    display: none;
+}
+.Overlay_album{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(0,0,0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: OpacityOverlay ease-in-out .6s;
+}
+.Overlay_album_img{
+    position: absolute;
+    z-index: 2;
+    animation: fadeIn ease-in-out .3s;
+}
+
+
+
+.Overlay_album_text{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
+@keyframes OpacityOverlay {
+    from{
+        opacity: 0
+    }
+
+    to{
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Footer */
+.Footer{
+    background-image: url("../img/Gon Song.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    position: relative;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Footer_enter{
+    padding-top: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Address_add{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+.Address_title{
+    font-size:24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Google_map{
+    position: relative;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.GG_map_img{
+    position: absolute;
+    top: 6px;
+}
+
+.Google_text{
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    color: #fff;
+}
+
+.About_us{
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 23px;
+}
+
+.Contact_title{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Contact_aboutUs{
+    display: flex;
+    align-items: center;
+    column-gap:6px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.Contact_fb,
+.Contact_yt,
+.Contact_instargram,
+.Contact_tw{
+    position: relative;
+    display: inline-block;
+}
+
+.Face_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 13px;
+    color: #fff;
+}
+
+.YT_icon
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    color: #fff;
+}
+
+.IG_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.TW_icon{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: #fff;
+}
+
+.padding{
+    padding-bottom: 16px;
+}
+
+.Footer_input{
+    position: relative;
+    display: inline-block;
+}
+
+.Sign_up{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.Sign_up_title{
+    padding-left: 64px;
+    font-size: 24px;
+    color: #d91d90;
+    text-transform: uppercase;
+}
+
+.Name,
+.Phone{
+    padding-bottom: 10px;
+    width: 290px;
+}
+
+.Name{
+    padding-top: 15px;
+}
+
+.Name_input,
+.Phone_input{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.submit_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:6px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+    border: none;
+    background-color: #d91d90;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.submit_icon{
+    color: #fff;
+}
+
+.Submit_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #fff;
+}
+
+.Address_and_contact{
+    display: flex;
+    column-gap: 101px;
+    align-items: center;
+}
+
+.Footer_text{
+    margin-top: 115px;
+    padding-left: 155px;
+    font-size:18px;
+    color: #fff;
+}
+
+.Footer_img_1{
+    position: absolute;
+    top: -90px;
+    
+}
+.Footer_img_2{
+    position: absolute;
+    top: -47px;
+    left: 620px
+}
+.Footer_img_3{
+    position: absolute;
+    top: -40px;
+    right: 264px;
+}
+.Footer_img_4{
+    position: absolute;
+    top: -40px;
+    right: 208px;
+}
